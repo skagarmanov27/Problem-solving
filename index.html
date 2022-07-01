@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Задачи для решения
+
+    События через атрибуты -->
+
+    <!-- 1. Повторите страницу по данному по образцу:
+
+    <button onclick="alert('Hello!')">Click me!</button> -->
+
+    <!-- 2. Повторите страницу по данному по образцу: -->
+
+    <!-- <button onmouseover="alert('Hello!')">Click me!</button> -->
+
+    <!-- 3. Повторите страницу по данному по образцу:
+
+    <button ondblclick="alert('Hello!')">Click me!</button>  -->
+
+    <!-- 4. Повторите страницу по данному по образцу:
+
+    <button onmouseout="alert('Hello!')">Point it at me and then take it away!</button> -->
+    
+    <!-- Метод getElementById и работа с атрибутами
+
+    5. Повторите страницу по данному по образцу: -->
+
+    <!-- <button onclick="buttonClick()">Click me!</button>
+    <input type="text" id="input" value="Cu-cu!"> -->
+
+    <!-- 6. Повторите страницу по данному по образцу: 
+
+    <button onclick="buttonClick()">Click me!</button>
+    <input type="text" id="input" value="Cu-cu!"> -->
+    
+    <!-- 7. Повторите страницу по данному по образцу:
+
+    <img src="http://old.code.mu/exercises/javascript/dom/osnovy-raboty-s-dom-v-javascript/2/3/1.jpg" alt="monkey" id="image">
+    <button onclick="buttonClick()">Click me!</button> -->
+
+    <!-- Работа с this
+
+    8. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Click me!" onfocus="func(this)"> -->
+
+    <!-- 9. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Click me!" onfocus="func(this)"> -->
+
+    <!-- 10. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Click me!" onfocus="func1(this)" onblur="func2(this)"> -->
+
+    <!-- 11. Повторите страницу по данному по образцу:
+    
+    <input type="submit" value="Click me!" onclick="func(this)"> -->
+
+    <!-- 12. Повторите страницу по данному по образцу:
+    
+    <input type="submit" value="Click me!" onclick="func(this)" -->
+
+    <!-- 13. Повторите страницу по данному по образцу:
+
+    <img src="http://old.code.mu/exercises/javascript/dom/osnovy-raboty-s-dom-v-javascript/2/3/1.jpg" alt="monkey" onmouseover="func1(this)" onmouseout="func2(this)"> -->
+
+    <!-- Работа с CSS
+
+    14. Повторите страницу по данному по образцу:
+
+    <button onclick="func()">Click me!</button>
+    <input type="text" value="Cu-cu!" id="text">     -->
+
+    <!-- // 15. Повторите страницу по данному по образцу: -->
+
+    <!-- <input type="text" value="Cu-cu!" id="text">
+    <button onclick="func1()">Click Me!</button>
+    <button onclick="func2()">Click Me again!</button> -->
+    
+    <!-- 16. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Cu-cu!" id="text">
+    <button onclick="func()">Click me!</button> -->
+
+    <!-- 17. Повторите страницу по данному по образцу:
+
+    <input type="submit" value="Click me!" id="btn1" onclick="func1()">
+    <input type="submit" value="Click to unlock item" id="btn2" onclick="func2()" style="display:none;"> -->
+
+    <!-- 18. Повторите страницу по данному по образцу: -->
+
+    <!-- <p>The button counts the number of clicks on it.</p>
+    <input type="submit" value="0" onclick="count(this)"> -->
+
+    <!-- 19. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Cu-cu!" id="text">
+    <button onclick="func()">Click me!</button> -->
+
+    <!-- 20. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Cu-cu!" id="text" class="eee www ddd">
+    <button onclick="func()">Click me!</button>  -->
+<!-- 
+    21. Повторите страницу по данному по образцу:
+
+    <input type="text" value="Hello!" id="1">
+    <input type="text" value="Bye!" id="2">
+    <button onclick="func()">Click me!</button> -->
+<!-- 
+    22. Повторите страницу по данному по образцу:
+
+    <p>By clicking on the button, the square of the number from the upper input will appear in the lower input.</p>
+    <input type="text" value=""placeholder = 'Enter a number' id="n1">
+    <input type="text" value="the result will appear here" id="n2" disabled>
+    <button onclick="func()">Click me!</button> -->
+
+    <!-- 23. Повторите страницу по данному по образцу: -->
+<!-- 
+    <input type="text" value="" placeholder="Enter a number!" id="text1"><br>
+    <input type="text" value="The result will appear here" id="text2" disabled><br>
+    <button onclick="func()">Click me!</button> -->
+<!-- 
+    24. Повторите страницу по данному по образцу:
+
+    <p>Pay attention to the cursor in different states.</p>
+    <input type="submit" value="Click me!" onclick="func(this)"> -->
+
+    <!-- 25. Повторите страницу по данному по образцу:
+
+    <input type="text" value="" id="text"><br>
+    <input type="submit" value="Я добавлю +" onclick="func('+');"><br>
+    <input type="submit" value="Я добавлю -" onclick="func('-');"><br>
+    <input type="submit" value="Я добавлю /" onclick="func('/');"><br>
+    <input type="submit" value="Я добавлю *" onclick="func('*');"><br>
+    <input type="submit" value="1" onclick="func('1');">
+    <input type="submit" value="2" onclick="func('2');">
+    <input type="submit" value="3" onclick="func('3');">
+    <input type="submit" value="4" onclick="func('4');">
+    <input type="submit" value="5" onclick="func('5');">
+    <input type="submit" value="6" onclick="func('6');">
+    <input type="submit" value="7" onclick="func('7');">
+    <input type="submit" value="8" onclick="func('8');">
+    <input type="submit" value="9" onclick="func('9');">
+    <input type="submit" value="0" onclick="func('0');"> -->
+
+    <script src="main.js"></script>
+</body>
+</html>
